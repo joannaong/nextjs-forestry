@@ -28,6 +28,17 @@ Bristlecone pines grow in scattered [subalpine](https://en.wikipedia.org/wiki/Su
 * list2
 * list4
 
+```
+ <div className="blog-single-post">
+      <div className="post grid">
+        <div className="post-heading">
+          <h1>{post.meta.title}</h1>
+          <p className="post-author">{post.meta.author}</p>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={post.meta.thumbnail} />
+        </div>
+```
+
 _italixxxxxxx_
 
 1. ordered list
